@@ -1,0 +1,128 @@
+/*
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+*/
+@charset "UTF-8";
+@font-face {
+  font-family: 'zocial';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./zocial-regular-webfont.woff') format('woff');
+  /*src: url('./open-iconic.woff') format('woff');*/
+}
+document, body{
+margin:0px;
+padding:0px;
+background-color:#e1e1e1;
+}
+.testfont{
+font-family: zocial;
+font-size:10vmin;
+}
+
+td{
+	border: 1px solid black;
+	padding:3em;
+}
+#cardcontainer {
+	font-family: 'zocial';
+}
+li{
+	display: inline-block;
+}
+li a{
+	font-size:8vmin;
+	color:white;
+	text-decoration: none;
+	width:10vmin;
+	height:10vmin;
+	overflow:hidden;
+	padding:3vmin; 
+	display: inline-block;
+	border:0.2vmin solid black;
+	border-radius:3vmin;
+	box-shadow: 1vmin 1vmin 0.5vmin #888888;
+}
+li a:hover{
+}
+
+.visible{
+	background-color:green;
+}
+.hidden{
+	color:rgba(0, 0, 0, 0); /*make the text transparent*/
+	background: 
+	  /* On "top" */
+	  repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 10px,
+		#ccc 10px,
+		#ccc 20px
+	  ),
+	  /* on "bottom" */
+	  linear-gradient(
+		to bottom,
+		#eee,
+		#999
+	  );
+}
+.found{
+	background-color:#a1a1a1;
+ }
+#info{
+	font-weight:bold;
+	font-size:8vmin;
+	color:white;
+	font-family:verdana;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#infobox{
+	background: 
+	  /* On "top" */
+	  repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 10px,
+		#ccc 10px,
+		#ccc 20px
+	  ),
+	  /* on "bottom" */
+	  linear-gradient(
+		to bottom,
+		#eee,
+		#999
+	  );
+	box-shadow: -0vmin 1vmin 0.8vmin #888888;
+}
+#stats,#timer{
+	font-weight:bold;
+	font-size:1em;
+	color:white;
+	font-family:verdana;
+  text-shadow:
+   -1px -1px 0 #ccc,  
+    1px -1px 0 #ccc,
+    -1px 1px 0 #ccc,
+     1px 1px 0 #ccc,
+	0 3px 0 #ccc;
+
+}
+#timer span{
+	font-size:6vmin;
+color:green;
+}
+#stats span{
+	font-size:6vmin;
+color:yellow;
+}
